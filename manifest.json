@@ -1,0 +1,13 @@
+{
+    "name": "URL Opener",
+    "description": "Use the context menu to open URL in localhost or dev",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "opener.js"
+    }
+}
